@@ -1,0 +1,4 @@
+CREATE DATABASE save_date;
+CREATE ROLE save_date WITH PASSWORD 'save_date';
+ALTER ROLE save_date LOGIN;
+ALTER ROLE save_date WITH SUPERUSER;
